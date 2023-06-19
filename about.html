@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About Karlie Howard is a front-end developer based in the USA, check out his projects and contact him for job inquiries">
+    <title>About me - Karlie Howard</title> 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,12 +18,11 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/css/style.css" />
-    <title>About Karlie Howard</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Karlie Howard</a>
+        <a class="navbar-brand" href="/" title="Homepage">Karlie Howard</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,23 +37,23 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a class="nav-link" aria-current="page" href="/" title="Homepage"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="about.html">About me</a>
+              <a class="nav-link active" href="/about.html" title="About Karlie Howard">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
+              <a class="nav-link" href="/about.html#contact" title="Contact Karlie Howard">Contact me</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <h1>About me</h1>
-    <h3>Front-end developer from Mississippi, USA</h3>
+    <h1 class="text-center">About me</h1>
+    <h3 class="text-center">Front-end developer from Mississippi, USA</h3>
     <div class="about-paragraphs text-center">
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
@@ -65,18 +66,18 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <img src="images/yoga.png" class="img-fluid p-2 shadow rounded" />
+          <img src="/images/yoga.png" class="img-fluid p-2 mb-4 shadow rounded" alt="Yoga project" />
         </div>
         <div class="col-sm-4">
-          <img src="images/weather.png" class="img-fluid p-2 shadow rounded" />
+          <img src="images/weather.png" class="img-fluid p-2 mb-4 shadow rounded" alt="Weather project" />
         </div>
         <div class="col-sm-4">
-          <img src="images/yogurt.png" class="img-fluid p-2 shadow rounded" />
+          <img src="images/yogurt.png" class="img-fluid p-2 mb-4 shadow rounded" alt="Yogurt project" />
         </div>
       </div>
     </div>
-    <div id="contact">
-      <h2>📮 Contact me</h2>
+    <div id="contact" class="mt-5">
+      <h2 class="text-center">📮 Contact me</h2>
       <a href="mailto:karlie.howard@gmail.com" class="email-link">
         karlie.howard@gmail.com
       </a>
